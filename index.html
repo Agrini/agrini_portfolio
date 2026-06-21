@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrini Chaturvedi</title>
+<meta name="description" content="Agrini Chaturvedi — UX designer and engineer working through ambiguity, one note at a time.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,72,400;0,72,500;1,72,400&family=Caveat:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page" id="page">
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <a href="#top" class="nav__mark">AC<span class="nav__mark-dot">.</span></a>
+    <nav class="nav__links">
+      <a href="#projects">Projects</a>
+      <a href="#side-quests">Side&nbsp;Quests</a>
+      <a id="nav-linkedin" href="#" target="_blank" rel="noopener">LinkedIn&nbsp;↗</a>
+      <a id="nav-behance" href="#" target="_blank" rel="noopener">Behance&nbsp;↗</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <main>
+    <section class="hero" id="top">
+
+      <p class="hero__eyebrow" id="eyebrow">currently scribbling notes at <span id="eyebrow-role">—</span></p>
+
+      <div class="hero__grid">
+
+        <div class="hero__photo-wrap">
+          <div class="hero__photo-card">
+            <img id="profile-photo" src="" alt="">
+          </div>
+          <span class="tape tape--top"></span>
+          <span class="pin"></span>
+        </div>
+
+        <div class="hero__intro-col">
+          <h1 class="hero__name">
+            <span id="name-first">Agrini</span>
+            <span id="name-last">Chaturvedi</span>
+          </h1>
+
+          <p class="hero__tagline">
+            <span id="tagline"></span>
+            <span class="annotation" id="annotation"></span>
+          </p>
+
+          <div class="note-card">
+            <p id="intro"></p>
+          </div>
+
+          <div class="link-row">
+            <a id="link-linkedin" class="tab tab--linkedin" href="#" target="_blank" rel="noopener">
+              <span class="tab__label">LinkedIn</span>
+            </a>
+            <a id="link-behance" class="tab tab--behance" href="#" target="_blank" rel="noopener">
+              <span class="tab__label">Behance</span>
+            </a>
+            <a id="link-cv" class="stamp" href="#" target="_blank" rel="noopener">
+              <span class="stamp__perforation"></span>
+              <span class="stamp__text">
+                <span class="stamp__line1">Open the</span>
+                <span class="stamp__line2">dossier</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="tear" aria-hidden="true">
+      <svg viewBox="0 0 1200 36" preserveAspectRatio="none"><path d="M0,18 Q15,2 30,18 T60,18 T90,18 T120,18 T150,18 T180,18 T210,18 T240,18 T270,18 T300,18 T330,18 T360,18 T390,18 T420,18 T450,18 T480,18 T510,18 T540,18 T570,18 T600,18 T630,18 T660,18 T690,18 T720,18 T750,18 T780,18 T810,18 T840,18 T870,18 T900,18 T930,18 T960,18 T990,18 T1020,18 T1050,18 T1080,18 T1110,18 T1140,18 T1170,18 T1200,18" /></svg>
+    </div>
+
+    <!-- ===== FOLDER TEASERS ===== -->
+    <section class="folders">
+
+      <a href="#projects" class="folder folder--projects" id="folder-projects">
+        <span class="folder__tab">Projects</span>
+        <div class="folder__body">
+          <ul class="folder__list" id="projects-list"></ul>
+          <p class="folder__caption" id="projects-caption"></p>
+        </div>
+      </a>
+
+      <a href="#side-quests" class="folder folder--quests" id="folder-quests">
+        <span class="folder__tab">Side Quests</span>
+        <div class="folder__body">
+          <ul class="folder__list" id="quests-list"></ul>
+          <p class="folder__caption" id="quests-caption"></p>
+        </div>
+      </a>
+
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="section__head">
+        <span class="section__eyebrow" id="projects-eyebrow"></span>
+        <p class="section__intro" id="projects-intro"></p>
+      </div>
+      <div class="cards cards--projects" id="projects-cards"></div>
+    </section>
+
+    <div class="tear" aria-hidden="true">
+      <svg viewBox="0 0 1200 36" preserveAspectRatio="none"><path d="M0,18 Q15,2 30,18 T60,18 T90,18 T120,18 T150,18 T180,18 T210,18 T240,18 T270,18 T300,18 T330,18 T360,18 T390,18 T420,18 T450,18 T480,18 T510,18 T540,18 T570,18 T600,18 T630,18 T660,18 T690,18 T720,18 T750,18 T780,18 T810,18 T840,18 T870,18 T900,18 T930,18 T960,18 T990,18 T1020,18 T1050,18 T1080,18 T1110,18 T1140,18 T1170,18 T1200,18" /></svg>
+    </div>
+
+    <!-- ===== SIDE QUESTS ===== -->
+    <section class="section" id="side-quests">
+      <div class="section__head">
+        <span class="section__eyebrow" id="quests-eyebrow"></span>
+        <p class="section__intro" id="quests-intro"></p>
+      </div>
+      <div class="cards cards--quests" id="quests-cards"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>Made with notebooks, sticky notes, and a little bit of code.</span>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

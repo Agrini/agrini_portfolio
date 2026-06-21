@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "siteName": "Agrini Chaturvedi",
+    "note": "Edit this file to update the live site. No HTML/CSS edits needed for content changes."
+  },
+  "landing": {
+    "eyebrow": "currently scribbling notes at",
+    "name_first": "Agrini",
+    "name_last": "Chaturvedi",
+    "tagline": "Interested in complex problems, simple solutions, and the messy process in between.",
+    "annotation": "(the good part)",
+    "intro": "I enjoy working on problems that don't come with clear answers. Whether it's understanding users, navigating technical constraints, or exploring business opportunities, I like breaking down complexity, finding patterns, and building practical solutions. My experiences across engineering, design, and product development have taught me to approach challenges from multiple perspectives and stay comfortable in ambiguity.",
+    "photo": "assets/photo.jpg",
+    "photo_alt": "Illustrated portrait of Agrini",
+    "current_role": "UX Designer & Business Analyst, Atlas Copco GECIA",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/agrini-chaturvedi/",
+      "behance": "https://www.behance.net/agrinichaturv",
+      "cv": "https://drive.google.com/file/d/1BHuDHYSlyb6hS4CbTfPdGdESJwShm01a/view?usp=sharing"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "intro": "Five things I've spent real hours on — some shipped, some still half-finished in a notebook somewhere.",
+    "items": [
+      {
+        "title": "DiaBuddy",
+        "subtitle": "A digital platform for diabetes patients",
+        "description": "A self-care platform for diabetes patients, built on user personas, journey maps, and a lot of How-Might-We questions.",
+        "tags": [
+          "User Research",
+          "Information Architecture",
+          "Wireframing"
+        ],
+        "image": "assets/projects/diabuddy.png",
+        "link": "projects/diabuddy/DiaBuddy WebPage.html"
+      },
+      {
+        "title": "TireTracker",
+        "subtitle": "Bicycle management for campuses",
+        "description": "A feature for managing the chaos of campus cycle-sharing, born from research into why bikes pile up and quietly disappear.",
+        "tags": [
+          "User Research",
+          "Problem Framing"
+        ],
+        "image": "assets/projects/tiretracker.png",
+        "link": "projects/tiretracker/TireTracker WebPage.html"
+      },
+      {
+        "title": "MunshiG",
+        "subtitle": "Conversational expense tracking",
+        "description": "Keep your big and small expenses tracked, without hassle.",
+        "tags": [
+          "Service Design",
+          "Prototyping"
+        ],
+        "image": "assets/projects/munshig.png",
+        "link": null
+      },
+      {
+        "title": "Pain Relief Massager",
+        "subtitle": "Rethinking period pain relief devices",
+        "description": "Rethinking and improving period pain relief devices.",
+        "tags": [
+          "Product Teardown",
+          "User Interviews",
+		  "Survey",
+		  "Market Study"
+		],
+        "image": "assets/projects/pain-relief-massager.jpg",
+        "link": "https://docs.google.com/presentation/d/178R35l1yYWmhhu3JVxZZotBXNYamNrVBe4ku3y1i5Co/edit?usp=sharing",
+        "link_label": "View slides"
+      },
+      {
+        "title": "Washing Device for Reusable Cloth Pads",
+        "subtitle": "Why — and where — the need exists",
+        "description": "Understanding why, and where, the need for it exists.",
+        "tags": [
+          "User Research",
+		  "Requirement Defination",
+		  "Product and Market Study", 
+		  "Prototyping",
+		  "Business Case"
+
+		],
+        "image": "assets/projects/reusable-pad-washer.jpg",
+        "link": "https://docs.google.com/presentation/d/1qEn9TdcOJpOs73Ik0ZT-Gh5fUHf4qcS4wRnXVhMYefQ/edit?usp=sharing",
+        "link_label": "View slides"
+      }
+    ]
+  },
+  "side_quests": {
+    "eyebrow": "Side Quests",
+    "intro": "Filed under: crochet, ink, things made for no reason but joy.",
+    "items": [
+      {
+        "title": "Crochet & Stuff",
+        "description": "Yarn, hooks, and the occasional gift someone didn't know they needed.",
+        "link": "https://www.instagram.com/tohfa.kubul.karein?igsh=aHdlazZvc3Y4YWln",
+        "link_label": "View on Instagram",
+        "image": null,
+        "placeholder": false
+      },
+      {
+        "title": "Illustrations",
+        "description": "Photos, captions, and the stories behind them — on the way.",
+        "link": null,
+        "link_label": null,
+        "image": null,
+        "placeholder": true
+      }
+    ]
+  }
+}
