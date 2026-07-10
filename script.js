@@ -34,6 +34,14 @@ function renderLanding(landing) {
   setLink(document.getElementById('nav-behance'), landing.links.behance);
 }
 
+function renderPhilosophy(data) {
+  document.getElementById('philosophy-label').textContent = data.label;
+  const img = document.getElementById('philosophy-img');
+  img.src = data.image;
+  img.alt = data.image_alt || '';
+  document.getElementById('philosophy-caption').textContent = data.caption;
+}
+
 function renderFolderPreview(items, titleKey, listId) {
   const list = document.getElementById(listId);
   list.innerHTML = '';
@@ -171,6 +179,7 @@ function renderFolderTags(content) {
   try {
     const content = await getContent();
     renderLanding(content.landing);
+    renderPhilosophy(content.philosophy);
     renderFolderPreview(content.projects.items, 'title', 'projects-list');
     renderFolderPreview(content.side_quests.items, 'title', 'quests-list');
     renderFolderTags(content);
