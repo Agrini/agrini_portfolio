@@ -19,6 +19,12 @@
       "cv": "https://drive.google.com/file/d/1BHuDHYSlyb6hS4CbTfPdGdESJwShm01a/view?usp=sharing"
     }
   },
+  "philosophy": {
+    "label": "what i'm moving towards",
+    "image": "assets/philosophy.png",
+    "image_alt": "Hand-drawn sketch: Making the product right → Making the right product",
+    "caption": "From getting things right, to getting the right things."
+  },
   "projects": {
     "eyebrow": "Projects",
     "intro": "Five things I've spent real hours on — some shipped, some still half-finished in a notebook somewhere.",
@@ -33,7 +39,7 @@
           "Wireframing"
         ],
         "image": "assets/projects/diabuddy.png",
-        "link": "projects/diabuddy/DiaBuddy WebPage.html"
+        "link": null
       },
       {
         "title": "TireTracker",
@@ -44,7 +50,7 @@
           "Problem Framing"
         ],
         "image": "assets/projects/tiretracker.png",
-        "link": "projects/tiretracker/TireTracker Webpage.html"
+        "link": null
       },
       {
         "title": "MunshiG",
@@ -55,18 +61,13 @@
           "Prototyping"
         ],
         "image": "assets/projects/munshig.png",
-        "link": "projects/munshig/munshig-portfolio.html"
+        "link": null
       },
       {
         "title": "Pain Relief Massager",
         "subtitle": "Rethinking period pain relief devices",
         "description": "Rethinking and improving period pain relief devices.",
-        "tags": [
-          "Product Teardown",
-          "User Interviews",
-		  "Survey",
-		  "Market Study"
-		],
+        "tags": [],
         "image": "assets/projects/pain-relief-massager.jpg",
         "link": "https://docs.google.com/presentation/d/178R35l1yYWmhhu3JVxZZotBXNYamNrVBe4ku3y1i5Co/edit?usp=sharing",
         "link_label": "View slides"
@@ -75,14 +76,7 @@
         "title": "Washing Device for Reusable Cloth Pads",
         "subtitle": "Why — and where — the need exists",
         "description": "Understanding why, and where, the need for it exists.",
-        "tags": [
-          "User Research",
-		  "Requirement Defination",
-		  "Product and Market Study", 
-		  "Prototyping",
-		  "Business Case"
-
-		],
+        "tags": [],
         "image": "assets/projects/reusable-pad-washer.jpg",
         "link": "https://docs.google.com/presentation/d/1qEn9TdcOJpOs73Ik0ZT-Gh5fUHf4qcS4wRnXVhMYefQ/edit?usp=sharing",
         "link_label": "View slides"
