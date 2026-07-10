@@ -39,7 +39,7 @@
           "Wireframing"
         ],
         "image": "assets/projects/diabuddy.png",
-        "link": null
+        "link": "projects\diabuddy\DiaBuddy WebPage.html"
       },
       {
         "title": "TireTracker",
@@ -50,7 +50,7 @@
           "Problem Framing"
         ],
         "image": "assets/projects/tiretracker.png",
-        "link": null
+        "link": "projects/tiretracker/TireTracker Webpage.html"
       },
       {
         "title": "MunshiG",
@@ -61,7 +61,7 @@
           "Prototyping"
         ],
         "image": "assets/projects/munshig.png",
-        "link": null
+        "link": "projects\munshig\munshig-portfolio.html"
       },
       {
         "title": "Pain Relief Massager",
